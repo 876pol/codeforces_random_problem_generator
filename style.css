@@ -1,0 +1,91 @@
+body {
+    font-family: verdana, arial, sans-serif;
+    width: 350px;
+    margin: 20px;
+}
+
+.roundbox {
+    border: 1px solid #b9b9b9;
+    position: relative;
+    margin-bottom: 1.0em;
+    padding: 0.5em;
+    font-size: 1.0rem;
+}
+
+.roundbox .roundbox-lt {
+    background: url(/res/roundbox-lt.png) no-repeat top left;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+.roundbox .roundbox-rt {
+    background: url(/res/roundbox-rt.png) no-repeat top right;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+.roundbox .roundbox-lb {
+    background: url(/res/roundbox-lb.png) no-repeat top left;
+    position: absolute;
+    bottom: -8px;
+    left: -1px;
+}
+
+.roundbox .roundbox-rb {
+    background: url(/res/roundbox-rb.png) no-repeat top right;
+    position: absolute;
+    bottom: -8px;
+    right: -1px;
+}
+
+.roundbox .title {
+    
+    color: #3b5998;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: .2em 0;
+    position: relative;
+    padding: 0 0 .3em .5em;
+    border-bottom: 1px solid #b9b9b9;
+}
+
+.roundbox .difficulty input {
+    width: 6rem;
+    padding-left: 1px;
+    padding-right: 1px;
+    font: 400 13.3333px Arial;
+}
+
+.roundbox .tags {
+    text-align: right;
+    font-size: 0.7rem;
+    padding-top: 20px;
+}
+
+.roundbox .tags .item {
+    margin: 2px 2px 2px 0;
+    padding: 0 3px 2px 3px;
+    background-color: #f0f0f0;
+    float: left;
+    font-size: 0.7rem;
+}
+
+.roundbox .tags select {
+    width: 100%;
+    font: 400 13.3333px Arial;
+}
+
+.roundbox .tags img:hover {
+    cursor: pointer;
+}
+
+.roundbox .submit {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.roundbox .submit input{
+    width: 80px;
+}
