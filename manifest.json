@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Codeforces Random Problem Generator",
     "version": "0.1",
-    "browser_action": {
+    "action": {
         "default_icon": "icon.png",
         "default_popup": "index.html"
     }
