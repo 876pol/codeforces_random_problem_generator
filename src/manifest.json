@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Codeforces Random Problem Generator",
+    "description": "Filter Codeforces problems, then opens a random problem based on the search criteria.",
     "version": "0.1",
     "action": {
         "default_icon": "128.png",
